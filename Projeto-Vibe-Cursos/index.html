@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Cursos - Sistema</title>
+    <link rel="stylesheet" href="../Projeto-Vibe-Cursos/Css/style.css" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="container">
+        <div class="content">
+              
+              <h1 div class="logo">
+                <img src="../Projeto-Vibe-Cursos/Imagens/Logo/Rectangle 2.png">
+              </h1>
+              
+              <div class="menu-lateral">
+                    <ul>
+                        <li><input type="submit" value="Cadastrar"></li>
+                        <li><input type="submit" value="Atualizar"></li>
+                        <li><input type="submit" value="Pesquisar"></li>
+                    </ul>
+             </div> <!--Close Menu-lateral-->
+
+        </div> <!--Close content-->
+
+
+        <div class="content-input">
+            <div class="content-formulario">
+
+               <p class="content-formulario-titulo-atual">Cadastrar Aluno</p>
+
+              
+                <p>Nome</p>
+                <input class="content-formulario-nome" type="text" name="nome" placeholder="Nome" required="required" autofocus>
+               
+                
+                <p>Endereço:</p>
+                <input class="content-formulario-endereco" type="text" name="endereco" placeholder="Rua Jose Miranda" required="required" autofocus>
+                <input class="content-formulario-numero" type="text" name="numero" placeholder="00" required="required" autofocus>
+                <input class="content-formulario-cep" type="text" name="cep" placeholder="00000-000" required="required" autofocus>
+
+                <p>Data Nascimento:</p>
+                <input class="content-formulario-nascimento" type="text" name="datanascimento" placeholder="00/00/0000" autofocus required="required">
+                
+                <p>Cidades:</p>
+                <select class="cidades">
+                    <option value="vitdaconquista">Vitoria da Conquista</option>
+                    <option value="Itapetinga">Itapetinga</option>
+                </select>
+
+           
+
+
+               <p>CPF:</p>
+               <input class="content-formulario-cpf" type="text" name="cpf" placeholder="000.000.000-00" required="required" autofocus>
+
+
+                <div class="escolhadesexo">
+
+                    <p class="escolhasexo-titulo">Gênero (opcional)</p>
+                    
+                        <div class="opcaosexo">
+                        <input type="radio" value="Feminino" name="F"><label class="f">Feminino</label>
+                        <input type="radio" value="Masculino" name="M"><label class="m">Masculino</label>
+                        <input type="radio" value="naoespecificar" name="NE"><label class="ne">Não especificaro</label>
+                        </div>
+
+                </div>
+
+                <div class="content-formulario-menu">
+                    <p>E-mail:</p>
+                <input class="content-formulario-email" type="email" name="email" placeholder="marcos@outlook.com" autofocus required>
+                </div>
+
+                <div class="content-formulario-telefone">
+                    <p>Celular:</p>
+                <input class="content-formulario-celular" type="tel" name="celular" placeholder="(00)0000-0000" autofocus required="required">
+                </div>
+
+                
+                <p class="content-formulario-titulo-cursos">Curso</p>
+                <select class="cursos">
+                    <option value="design">Design Grafico</option>
+                    <option value="programador">Programador</option>
+                    <option value="operadordecomputador">Operador de Computador</option>
+                    <option value="excel">Excel</option>
+                </select>
+
+
+                <div class="content-input-senha">
+                    <p>Senha:</p>
+                    <input type="password" name="senha" value="Senha" autofocus required>
+                
+                        <div class="informacaosenha">
+                            <p>*Mínimo um caractere especial (ex.: “@“ “#” “!” “%”)</p>
+                            <p>*Mínimo um número (0 a 9)</p>
+                            <p>*Mínimo uma letra maiúscula (ABC)</p>
+                            <p>*Mínimo uma letra minúscula (abc)</p>
+                            <p>*Mínimo 8 caracteres</p>
+                        </div>
+
+                </div>
+
+                <div class="content-input-repete-senha">
+                    <p>Repita a senha:</p>
+                    <input type="password" name="repetesenha" value="Repita a senha" autofocus required>
+                </div>
+
+
+
+               <div class="botoes"> 
+                        <a href="#">
+                        <input class="btcadastrar" type="submit" value="Cadastrar" name="btcadastrar">
+                        </a>
+
+                        <a href="#">
+                        <input  class="btlimpar"   type="submit" value="Limpar" name="btlimpar">
+                        </a>
+                   
+                </div>
+
+
+                
+         </div> 
+        </div><!--Close content-input-->
+
+
+        <div class="imagem-formulario">
+            <img src="../Projeto-Vibe-Cursos/Imagens/rapaz-azul.png">
+        </div>
+
+   
+
+
+       
+    </header><!--Close container-->
+
+
+    <main>
+
+    </main>
+
+
+     <footer class="cabeçalho">
+
+     </footer>
+    
+</body>
+</html>
