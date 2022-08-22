@@ -1,0 +1,310 @@
+/*Margin, Padding */
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/*Configurações iniciais*/
+:root 
+{
+    --Topo-color: #0080FF;
+    --Fonte-color:#000000;
+    --Color-Botao-Cadastrar:#0080FF;
+    --Font-Family:'Inter';
+    --color-Botao-formulario:#F4F4F4;
+}
+
+
+body
+{
+    font-family: 'Inter', sans-serif;
+}
+
+/*Container*/
+.container
+{
+    max-width:100%;
+    height:81px;
+    background-color: var(--Topo-color);
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    
+}
+
+/*---------------------------------------------------------*/
+
+
+
+/*Logo*/
+.logo 
+{
+    margin-left: 203px;
+    margin-bottom: 60px;
+}
+
+/*----------------------------------------------------------*/
+
+
+
+/*menu-lateral*/
+.menu-lateral
+ {
+    
+    width: 50%;
+    
+    display:inline-block;
+    
+    
+}
+
+/*Menu Lateral Input*/
+.menu-lateral input
+{
+    padding:5px;
+    margin-bottom: 10px;
+    border: gainsboro;
+    width: 100%;
+    background-color:#D9D9D9;
+    
+    
+}
+
+
+.content-input
+{
+    margin-top: 170px;
+    margin-bottom: 15px;
+
+}
+
+.content-formulario-nome
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.content-formulario-endereco
+{
+    width:50%;
+    padding: 5px;
+    margin-bottom: 15px;
+ 
+}
+
+.content-formulario-numero
+{
+    width: 15%;
+    padding: 5px;
+        
+}
+
+
+.content-formulario-cep{
+    width: 15%;
+    padding: 5px;
+    
+   
+}
+
+
+.content-formulario-nascimento{
+    width: 100%;
+    padding: 5px;
+    margin-bottom:15px;
+}
+
+.cidades{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    display:    w2;
+}
+
+.content-formulario p {
+    margin-top: 15px;
+}
+
+.content-formulario-titulo-atual{
+    margin-bottom: 15px;
+    background-color: var(--color-Botao-formulario);
+    display:inline;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+
+.content-formulario-cpf{
+    width: 100%;
+    padding: 5px;
+    margin-bottom:15px;
+
+}
+
+/*-------------------------------------------------------------*/
+
+
+/*Campo formulario escolha de sexo*/
+
+.opcaosexo{
+  
+    margin-bottom: 15px;
+    
+}
+
+.f{
+    margin-left: 5px;
+}
+
+.m{
+    margin-left: 5px;
+}
+
+
+.ne{
+    margin-left: 5px;
+    
+
+}
+
+
+.escolhasexo-titulo{
+    margin-bottom:15px;
+    font-size: 1em;
+}
+
+/*close escola de sexo*/
+
+/*----------------------------------------------------------------*/
+
+
+
+/*Input Menu*/
+
+.content-formulario-email{
+    
+     width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/*Close Input Menu*/
+
+/*-----------------------------------------------------------------*/
+
+
+/*Input Celular*/
+.content-formulario-celular {
+    
+    width: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+}
+/*close input celular*/
+
+
+
+/*Open content-formulario-titulo-cursos*/
+.content-formulario-titulo-curso{
+    margin-top: 15px;
+}
+
+.cursos {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/*Close content-formulario-titulo-cursos*/
+
+
+
+/**/
+.content-input-senha input{
+
+    width: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+
+}
+/**/
+
+
+
+/*input senha*/
+
+.content-input-repete-senha input{
+    width: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+}
+
+
+.informacaosenha{
+    margin-bottom: 15px;
+}
+/*close input senha*/
+
+
+/*open botao cadastrar*/
+
+.btcadastrar {
+    padding: 8px;
+    background-color: var(--Color-Botao-Cadastrar);
+    width: 20%;
+    color: var(--color-Botao-formulario);
+    border: 0px;
+    border-radius: 5px;
+    display: inline;
+
+}
+
+
+
+
+ .btlimpar{
+    padding: 8px;
+    width: 20%;
+    color:#000000;
+    border: solid 1px var(--Fonte-color);
+    border-radius: 5px;
+    background-color: transparent;
+   
+
+}
+
+/*close botao cadastrar*/
+
+/*------------------------------------------------------------*/
+
+
+/**/
+.imagem-formulario{
+    margin-top: 630px;
+    
+}
+
+.imagem-formulario img {
+    width: 100%;
+}
+/**/
+
+
+/*------------------------------------------------------------------*/
+
+/*rodape*/
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color:#F4F4F4;
+    height: 41px;
+    margin-top: 1310px;
+}
+
+/*-------------------------------------------------------------------*/
