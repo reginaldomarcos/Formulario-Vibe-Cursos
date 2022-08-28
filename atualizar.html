@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/estiloatualizar.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet"> 
 
 
-    <title>Sistema Cadastro Leads</title>
+    <title>Sistema Cadastro Leads Atualizar</title>
 </head>
 <body>
 
@@ -25,7 +29,7 @@
 
             <div class="formulario">
                 <ul>
-                        <li class="icon--cadastrar"><span class="material-symbols-outlined">person_add</span><a href="">Cadastrar Leads</a></li></i>
+                        <li class="icon--cadastrar"><span class="material-symbols-outlined">person_add</span><a href="./index.html">Cadastrar Leads</a></li></i>
            
                         <li class="icon--cadastrar"><a href="./atualizar.html"><span class="material-symbols-outlined">group_add</span>Atualizar</a></li>
                         <li class="icon--cadastrar"><a href="./pesquisar.html"><span class="material-symbols-outlined">person_search</span>Pesquisar</a></li>
@@ -41,8 +45,18 @@
  
                    <div class="centralizar__main">                                
                         <div class="titulo">
-                        <h2 class="main__conteudo__titulo">Cadastrar Leads</h2>
+                        <h2 class="main__conteudo__titulo">Atualizar Leads</h2>
                         </div>
+
+                        <div class="form__realizar__busca">
+                        <input class="input__completo__buscar" type="text" name="nome" id="nome" placeholder="Buscar Lead" required>
+                        </div>
+
+                      <div class="bt__atualizar">
+                        <input type="submit" value="Realizar Consulta" class="bt__cadastrar__atualizar">
+                      </div>
+
+
                         <hr></hr>
 
                         <div class="form">
@@ -50,18 +64,15 @@
                             <div class="formulario__form">
                                 <form method="post" action="#">
 
-                                    <h2>Informações Pessoais</h2>
-                                    <hr>
-
                                    <p class="nome">Nome completo:</p>
-                                    <input class="input__completo" type="text" name="nome" id="nome" placeholder="" required >
+                                    <input class="input__completo" type="text" name="nome" id="nome" placeholder="Reginaldo Marcos">
 
                                     <p class="cidade">Idade</p>
-                                    <input class="input__completo" type="text" name="idade" id="idade" required>
-                                   
-                                   
+                                    <input class="input__completo" type="text" name="idade" id="idade" placeholder="37">
+
+
                                     <p class="cidade">Cidade</p>
-                                    <select class="input__completo" type="text" name="cidade" id="cidade" required>
+                                    <select class="input__completo" type="text" name="cidade" id="cidade">
                                         <option value="city">Cidade</option>
                                         <option value="vdc">Vitoria da Conquista</option>
                                         <option value="it">Itapetinga</option>
@@ -69,7 +80,7 @@
                                     </select>
 
                                     <p class="bairro">Bairro</p>
-                                    <select class="input__completo" type="text" name="bairro" id="bairro" required>
+                                    <select class="input__completo" type="text" name="bairro" id="bairro">
                                     <option value="bairro">Bairro</option>
                                     <option value="alto">Alto Maron</option>
                                     <option value="can">Candeias</option>
@@ -77,21 +88,19 @@
                                     </select>
                                 <div class="input__centraliza__celular">
                                     <p class="telefone">Telefone com DDD:</p>
-                                    <input class="input__meio" type="text" name="telefone" id="telefone" placeholder="(00)00000-0000" required>
+                                    <input class="input__meio" type="text" name="telefone" id="telefone" placeholder="(77)98817-3147">
 
 
                                    
                                     <p class="celular">Celular com DDD</p>
-                                    <input class="input__meio" type="text" name="celular" id="celular" placeholder="(00)0000-0000" required>
+                                    <input class="input__meio" type="text" name="celular" id="celular" placeholder="(77)98817-3147">
                                 </div> 
 
-                                
                                     <div class="form_checkboxA">
                                         <label>Está trabalhando atualmente?</label>
-                                        <label class="algum__curso"> Sim </label><input type="checkbox" name="sim">
+                                        <label class="algum__curso"> Sim </label><input type="checkbox" name="sim" placeholder="X">
                                         <label> Não </label><input type="checkbox" name="nao">
                                     </div>   
-                                    
                                     
                                     
                                     <div class="form_checkboxB">
@@ -113,8 +122,8 @@
                                     </div> 
                                     
                                     <div class="botao__cadastrar">
-                                        <input type="submit" value="Cadastrar" class="bt__cadastrar">
-                                        <input type="submit" value="Cadastrar" class="bt__limpar">
+                                        <input type="submit" value="Atualizar Cadastro" class="bt__cadastrar">
+                                        <input type="submit" value="Excluir Cadastro" class="bt__limpar">
                                     </div>
 
                                   
@@ -127,6 +136,7 @@
 
                         </div>
                     </div> 
+
 
 
             </div>

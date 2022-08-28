@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding:0;
+
+
+}
+p,label,h1,h2 {
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.container 
+{
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                          "footer";
+    grid-template-columns: 204px;
+    grid-template-rows: auto 120vh auto;
+}
+
+.header{
+  grid-area: header;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  background-color: #FF735C;
+}
+
+
+.main
+{
+    grid-area: main;
+    grid-column: 2/2;
+    background-color: #fff;
+    
+}
+
+
+
+.main__conteudo
+{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: 190px auto;
+grid-template-areas: "titulo"
+                     "form";
+
+}
+
+
+.titulo{
+    grid-area: titulo;
+    background-color: #ffffff;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+.form {
+    grid-area: form;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+
+.footer
+{
+  grid-area: footer;
+  background-color: #fff;
+  grid-column: 1/3;
+  grid-row: 3/3;
+}
+
+
+
+.header__logo
+{
+    text-align: center;
+}
+
+.header__titulo
+{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1em;
+}
+.formulario li 
+{
+    list-style: none;
+}
+
+.formulario li a  {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+
+
+.formulario
+{
+    text-align: left;
+    margin-left: 10%;
+    
+}
+
+
+.icon--cadastrar
+{
+    margin-left: 5px;
+    
+}
+
+
+.main__conteudo__titulo
+{
+    margin-top: 121px;
+}
+
+
+.centralizar__main
+{
+    margin-left: 20px;
+}
+
+.input__completo
+{
+    padding: 10px;
+    width: 30%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.input__meio
+{
+
+    padding: 8px;
+    width: 10%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: inline;
+
+}
+
+.input__centraliza__celular
+{
+    
+    display: inline;
+    margin-bottom: 20px;
+   
+}
+
+
+.main__conteudo__titulo
+{
+    margin-bottom: 20px;
+}
+
+.form_checkboxA
+{
+   justify-self: left;
+   margin-bottom: 20PX;
+}
+
+.form_checkboxB
+{
+   justify-self: left;
+   margin-bottom: 20PX;
+}
+
+.form_checkboxC
+{
+   justify-self: left;
+   margin-bottom: 20PX;
+}
+
+
+.form__input__textarea
+{
+    padding: 8px;
+    width: 30%;
+    background-color:#D9D9D9;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.bt__cadastrar
+{
+    background-color:#027715;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 10%;
+    margin-top: 2%;
+   
+}
+
+.material-symbols-outlined
+{
+    color: #fff;
+    padding: 10px;
+   
+}
+
+
+.bt__limpar
+{
+    background-color:#FCFFFC;
+    padding: 8px;
+    border-radius: 5px;
+    color: #000;
+    width: 10%;
+    margin-top: 2%;
+    border: solid 1px #000;
+    margin-left: 20px;
+    
+}
+
+.cidade label{
+    font-size: 20px;
+}
+
+
+
+
+
+
+.celular{
+ 
+    margin-bottom: 10px;
+}
+
+.botao__cadastrar{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.form_checkboxC
+
+{
+    text-align: justify
+}
+
+.form_checkboxB
+
+{
+    text-align: justify
+}
+
+.form_checkboxA
+
+{
+    text-align: justify
+}
+
+
+.bt__cadastrar__atualizar
+{
+    background-color:#027715;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 10%;
+    margin-top: 2%;
+   
+}
+
+.input__completo__buscar
+{
+    padding: 10px;
+    width: 30%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
